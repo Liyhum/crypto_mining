@@ -64,7 +64,7 @@ if os.environ.get("RUNNING_IN_NEW_CMD") != "TRUE":
 
     # For Linux
     elif os_type == "Linux":
-        subprocess.run(f"gnome-terminal -- python3 {__file__}", shell=True)
+        subprocess.run(f"python3 {__file__}", shell=True)
     # For MAC
     # For macOS
     elif os_type == "Darwin":  # macOS menggunakan nama sistem operasi "Darwin"
